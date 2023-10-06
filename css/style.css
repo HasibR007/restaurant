@@ -1,0 +1,489 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Cookie', cursive;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.section img{
+	width: 100%;
+	font-size: 20px;
+}
+.header .navbar-collapse{
+  	margin: 0px 130px 0px 0px;
+}
+.header .navbar-brand{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+.header .navbar-brand:hover{
+	color: #f2d93e;
+}
+.header .navbar-brand:focus{
+	color: #f2d93e;
+}
+.header .nav-link{
+	color: #fff;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.header .nav-link:hover{
+	color: #f2d93e !important;
+}
+.header .nav-link:focus{
+	color: #f2d93e;
+}
+.header .navbar-brand{
+	color: #fff;
+	font-weight: 800;
+}
+.header .banner-box{
+	background-color: #ffffffad;
+	font-size: 30px;
+	height: 400px;
+	width: 600px;
+	margin: 0px auto;
+	margin-top: 180px;
+
+}
+.banner .brunch{
+	color: #000;
+	font-size: 60px;
+	margin: 120px 0px 0px 240px;
+	padding-top: 70px;
+
+}
+
+.banner .website{
+	color: #ad6c12;
+	font-size: 60px;
+	padding-left: 40px;
+	margin: 0px 0px 10px 100px;
+}
+.banner .btn-light{
+	margin-left: 220px;
+	border-radius: 0px;
+	font-size: 20px;
+	padding: 0px 10px 0px 10px;
+
+
+}
+
+.header{
+	background: url("../images/banner.png") center top no-repeat;
+	padding-bottom: 300px;
+	background-size: cover;
+
+}
+.flavours{
+	background: #2a3b40;
+	margin: 0px 0px 0px 0px;
+}
+.flavours .head{
+	margin: 160px 0px 0px 0px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+}
+.flavours .body{
+	color: #fff;
+	margin: 50px 0px 0px 0px;
+}
+.flavours img{
+	margin: 50px 0px 40px 40px;
+	
+}
+.dot{
+	background: #d4d8d9;
+	padding: 0px 20px 0px 20px;
+}
+.dot .head{
+	font-weight: 500;
+	margin: 0px 0px 20px 40px;
+}
+.dot .body{
+	margin: 0px 0px 80px 40px;
+}
+.dot .dot1{
+	margin: 80px 0px 20px 40px;
+}
+.banner2{
+	background: url("../images/2ndbg.png") center top no-repeat;
+	padding: 300px 0px 300px 0px;
+	background-size: cover;
+}
+.banner2 .inner-banner{
+	width: 80%;
+	height: 500px;
+}
+.cuisine{
+	background: #ffffffab;
+	height: 600px;
+	margin: 0px auto;
+}
+
+.banner2 .banhead h2{
+	padding: 20px 0px 0px 20px;
+	font-size: 60px;
+}
+
+.cuisine .inner-banner{
+	margin: 0px auto;
+
+}
+.banner2 .menu p{
+	text-align: left;
+}
+.banner2 .banhead .menu .head{
+	font-weight: 700;
+	margin: 0px 0px 5px 0px;
+}
+
+.banner2 .menu-img{
+	width: 80px;
+	height: 80px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.banner2 .cuisine .banhead h2{
+	font-size: 90px;
+	    margin: 20px 0px 0px 0px;
+}
+.banner2 .cuisine .banhead .onm{
+	font-size: 60px;
+	color: #ad6c12;
+	margin: -30px 0px 20px 0px;
+}
+.items{
+	background-color: #d4d8d9;
+	background-size: cover;
+
+}
+.items .discover h1{
+	font-size: 70px;
+	margin: 30px 0px 0px 0px;
+}
+.items .discover p{
+	font-size: 50px;
+	color: #ad6c12;
+	margin: -30px 0px 40px 0px;
+}
+.items .food{
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 20px 0px 0px 0px;
+	margin-left: 20px;
+}
+.items a{
+	text-decoration: none;
+	border-bottom: 5px solid #ff992b;
+	margin-left: 20px;
+}
+.items span{
+	font-weight: 700;
+	font-size: 20px;
+}
+.items p{
+	margin-left: 20px;
+}
+.items .bg{
+	background: #ffffff;
+	width: 350px;
+	height: 230px;
+	margin-bottom: 60px;
+}
+.items img{
+	width: 350px;
+}
+.pfooter{
+	background: #2a3b40;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 20px;
+}
+.pfooter .para{
+	color: #fff;
+}
+.pfooter .name{
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.pfooter .fa-comment-o{
+  	font-size: 30px;
+  	color: #fff;
+  	padding: 30px 0px 30px 0px;
+}
+.pfooter .fa-facebook{
+	color: #3056e2;
+	transition: 1s;
+}
+.pfooter .fa-facebook:hover{
+	color: #fff;
+	background: #08c;
+	transition: 1s;
+}
+
+.pfooter .fa-twitter{
+	color: #5578df;
+	transition: 1s;
+}
+.pfooter .fa-twitter:hover{
+	color: #fff;
+	background: #08c;
+	transition: 1s;
+}
+
+.pfooter .fa-instagram{
+	color: #e156a3db;
+	transition: 1s;
+}
+.pfooter .fa-instagram:hover{
+	color: #fff;
+	background: #bb3963db;
+	transition: 1s;
+}
+
+.pfooter .fa-pinterest{
+	color: #e2305e;
+	transition: 1s;
+}
+.pfooter .fa-pinterest:hover{
+	color: #fff;
+	background: #e2305e;
+	transition: 1s;
+}
+
+
+
+.pfooter .fa-google-plus{
+	color: #de4a65;
+	transition: 1s;
+}
+.pfooter .fa-google-plus:hover{
+	color: #fff;
+	background: #e2305e;
+	transition: 1s;
+}
+
+
+
+.pfooter ul li{
+	list-style: none;
+	display: inline-block;
+}
+.pfooter ul li i{
+	font-size:30px;
+	background-color: #fff;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.footer{
+	background: #d4d8d9;
+	padding-bottom: 30px;
+}
+.footer .about{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 50px 0px 20px 0px;
+}
+.footer .para{
+	margin: 0px 0px 50px 0px;
+}
+.footer .active{
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.footer ul{
+	margin: 50px 0px 0px 0px;
+}
+.footer ul li{
+	list-style: none;
+}
+.footer ul li a{
+	display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+
+/*css media query start*/
+
+/***
+ *screen resolution: 279px to 319px
+ * most of the folding mobile phone like galaxy fold.
+ *  
+***/
+@media (min-width: 279px) and (max-width: 319px) {
+ /*css start */
+
+/*css end */
+
+}
+/***
+ *screen resolution: 320px to 480px
+ * most of the  mobile phones.
+ *  
+***/
+@media (min-width: 320px) and (max-width: 480px) {
+ /*css start */
+.header {
+    background-size: contain;
+    padding-bottom: 0px;
+}
+.header .nav-link {
+    margin-top: 0px;
+    font-size: 14px;
+}
+.header .navbar-toggler {
+color: #000;
+background: #fff;
+border-radius: 0px;
+}
+.banner .brunch {
+    margin: 120px 0px 0px 130px;
+    padding-top: 50px;
+}
+.banner .website {
+    color: #ad6c12;
+    font-size: 45px;
+    padding-left: 40px;
+    margin: 0px 0px 0px 24px;
+    line-height: 30px;
+}
+.banner .btn-light {
+    margin: 30px 0px 0px 115px;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.flavours .head {
+    margin: 50px 0px 0px 55px
+}
+.flavours .body {
+    font-size: 10px;
+    color: #fff;
+    margin: 30px 0px 0px 30px;
+}
+.flavours img {
+    margin: 41px 0px 40px 15px;
+    height: 220px;
+}
+.dot .dot1 {
+    margin: 20px 0px 20px 40px;
+}
+.dot .body {
+    margin: 0px 0px 40px 40px;
+    font-size: 14px;
+}
+.banner2 .cuisine .banhead h2 {
+    font-size: 50px;
+}
+.banner2 .cuisine .banhead .onm {
+    font-size: 30px;
+    color: #ad6c12;
+    margin: -10px 0px 20px 0px;
+}
+.banner2 .menu-img{
+	margin: 10px 0px 0px 125px;
+}
+.banner2 .banhead .menu .head {
+    font-weight: 700;
+    margin: 10px 0px 5px 0px;
+}
+.banner2 .menu p {
+    text-align: center;
+}
+.banner2 .banhead{
+	height: 700px;
+}
+.items .discover h1 {
+    font-size: 50px;
+    margin: 390px 0px 0px 0px;
+}
+.items .discover p {
+    font-size: 30px;
+    line-height: 10px;
+    margin: 0px 0px 30px 0px;
+}
+.pfooter .para {
+    color: #fff;
+    font-size: 12px;
+    margin: 0px 10px 0px 10px;
+}
+
+/*css end */
+}
+
+/***
+ *screen resolution: 993px to 1199px
+ * most of the laptop.
+ *  
+***/
+@media (min-width: 993px) and (max-width: 1199px) {
+/*	css start*/
+.header {
+	background-size: cover;
+}
+.flavours .head {
+    margin: 100px 0px 0px 0px;
+}
+
+.flavours .body {
+    margin: 50px 0px 0px 0px;
+    font-size: 14px;
+}
+.flavours img {
+    margin: 50px 0px 40px 40px;
+    height: 260px;
+}
+.dot .dot1 {
+    margin: 30px 0px 20px 40px;
+}
+
+.dot .body {
+    margin: 0px 0px 50px 40px;
+    font-size: 14px;
+}
+.items img {
+    width: 290px;
+}
+.items .bg {
+	width: 290px;
+}
+
+.banner2 .cuisine .banhead h2 {
+    font-size: 60px;
+    margin: 0px 0px 0px 0px;
+}
+.banner2 .cuisine .banhead .onm {
+    font-size: 40px;
+    margin: -15px 0px 20px 0px;
+}
+/*	css end*/
+}
+
+
+
+
+
+
+
+
+
+
